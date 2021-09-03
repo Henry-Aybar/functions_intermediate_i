@@ -95,9 +95,9 @@ dojo = {
 }
 
 def iterateDictionary3(some_list):
-    print(len(some_list['locations']), "locations")
+    print(len(some_list['locations']), "locations") #prints location length
     for i in range(0,len(some_list['locations'])):
-        print(some_list['locations'][i])
+        print(some_list['locations'][i]) #prints list of locations
     print(len(some_list['instructors']), "instructors")
     for i in range(0,len(some_list['instructors'])):
         print(some_list['instructors'][i])
